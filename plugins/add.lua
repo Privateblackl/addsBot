@@ -1,5 +1,4 @@
 local function run(msg)
-if is_admin1(msg) then
  return '/add'
 end
 end
