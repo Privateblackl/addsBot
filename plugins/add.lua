@@ -1,10 +1,11 @@
 local function run(msg, matches ) 
-    return "/add"
+  if msg.service and is_admin1(msg) then
+  return "/add"
 end
 
 return {
   patterns ={
-    "^(.*)$" 
+    "^!!tgservice (.+)$" 
  }, 
   run = run 
 }
