@@ -218,7 +218,7 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
-    "stats",
+    "plugins",
     "anti_spam",
     "owners",
     "arabic_lock",
@@ -226,10 +226,10 @@ function create_config( )
     "get",
     "broadcast",
     "invite",
-    "all",
-    "leave_ban",
+    "fwd",
+    "join",
 	"supergroup",
-	"whitelist",
+	"add",
 	"msg_checks"
     },
     sudo_users = {255317894},--Sudo users
