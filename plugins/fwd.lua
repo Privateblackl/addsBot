@@ -1,5 +1,5 @@
    function run(msg, matches)
-if matches[1]:lower() == 'fwdtoall' and msg.reply_id and is_sudo(msg) then
+if matches[1]:lower() == 'fwd' and msg.reply_id and is_sudo(msg) then
 local pm = msg.reply_id
     local data = load_data(_config.moderation.data)
 local groups = 'groups'
